@@ -113,7 +113,7 @@ def build_training_set_fmultipleparams(data,func):
     return t_set
 
 def print_avg(name,vector):
-    print 'Average %s: %s'%(name,sum(vector)/(len(vector)*1.0))
+    print('Average %s: %s'%(name,sum(vector)/(len(vector)*1.0)))
 
 def target_vector(t_set):
     'creates a numpy array (eg a Y matrix) from the training set'
